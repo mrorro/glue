@@ -1,0 +1,17 @@
+@startuml
+
+!include https://raw.githubusercontent.com/mrorro/glue/main/mainEntities/entity.puml
+!include https://raw.githubusercontent.com/mrorro/glue/main/mainEntities/resource.puml
+!include https://raw.githubusercontent.com/mrorro/glue/main/mainEntities/extension.puml
+!include https://raw.githubusercontent.com/mrorro/glue/main/computingService/executionEnvironment.puml
+!include https://raw.githubusercontent.com/mrorro/glue/main/computingService/acceleratorEnvironment.puml
+
+Entity <|-- Resource
+Entity *-- "+has" Extension
+Resource <|--  ExecutionEnvironment
+
+ExecutionEnvironment "1" -- "*" AcceleratorEnvironment
+Entity <|-- AcceleratorEnvironment
+@enduml
+
+

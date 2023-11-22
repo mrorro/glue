@@ -1,0 +1,3 @@
+@startuml
+json "<b> Extension" as Extension %load_json("https://raw.githubusercontent.com/mrorro/glue/main/mainEntities/json/extension.json")
+@enduml

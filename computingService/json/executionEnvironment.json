@@ -1,0 +1,25 @@
+{
+   "Platform" : "amd64",
+   "VirtualMachine": "False",
+   "TotalInstances": "3",
+   "UsedInstances": "1",
+   "UnavailableInstances": "1",
+   "PhysicalCPUs": "number of sockets per Worker Node",
+   "LogicalCPUs": "number of cores per Worker Node",
+   "CPUMultiplicity": "multicpu-multicore",
+   "CPUVendor": "",
+   "CPUModel": "",
+   "CPUVersion": "",
+   "CPUClockSpeed": "1800",
+   "CPUTimeScalingFactor": "",
+   "WallTimeScalingFactor": "",
+   "MainMemorySize": "MB",
+   "VirtualMemorySize": "MB",
+   "OSFamily": "linux",
+   "OSName": "ubuntu",
+   "OSVersion": "String",
+   "ConnectivityIn": "True",
+   "ConnectivityOut" :"False",
+   "NetworkInfo": "infiniband"
+}
+

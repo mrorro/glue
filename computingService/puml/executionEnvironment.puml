@@ -1,0 +1,3 @@
+@startuml
+json "<b>ExecutionEnvironment" as ExecutionEnvironment %load_json("https://raw.githubusercontent.com/mrorro/glue/main/computingservice/json/executionEnvironment.json")
+@enduml

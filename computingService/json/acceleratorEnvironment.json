@@ -1,0 +1,10 @@
+{
+"Type": "GPU/FPGA",
+"Numbers": "4",
+"Vendor": "String",
+"Model": "String",
+"Version": "String",
+"ClockSpeed": "MHz",
+"Memory": "MB",
+"ComputeCapability": "String"
+}

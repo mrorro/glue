@@ -1,0 +1,3 @@
+@startuml
+json "<<abstract>>\n <b>Resource" as Resource %load_json("https://raw.githubusercontent.com/mrorro/glue/main/mainEntities/json/resource.json")
+@enduml

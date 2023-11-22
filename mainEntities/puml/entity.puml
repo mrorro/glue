@@ -1,0 +1,3 @@
+@startuml
+json "<<Abstract>>\n <b>Entity" as Entity %load_json("https://raw.githubusercontent.com/mrorro/glue/main/mainEntities/json/entity.json")
+@enduml

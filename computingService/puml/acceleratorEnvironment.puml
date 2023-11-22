@@ -1,0 +1,3 @@
+@startuml
+json "<b>AcceleratorEnvironment" as AcceleratorEnvironment  %load_json("https://raw.githubusercontent.com/mrorro/glue/main/computingService/json/acceleratorEnvironment.json")
+@enduml
